@@ -1,0 +1,12 @@
+name = "cf-waitroom"
+type = "webpack"
+account_id = "1fa330643ebd3715f79541cbb4ef2d31"
+workers_dev = true
+route = ""
+zone_id = ""
+kv_namespaces = [ 
+	{ binding = "WAITROOM", id = "5eec1b13ca7d4bff8291c5ab3718bd06", preview_id = "5eec1b13ca7d4bff8291c5ab3718bd06" }
+]
+
+[site]
+bucket = "./public"
